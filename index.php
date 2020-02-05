@@ -2,7 +2,7 @@
 <div class="banner">
    <img src="<?php echo 'assets/images/banner2.jpg' ?>" alt="">
 </div>
-<div class="bg-microsite">
+<div class="bg-microsite pt-4">
    <div class="container">
       <div class="text-center">
          <h2>พบกับการแข่งขันครั้งยิ่งใหญ่</h2>
@@ -32,14 +32,14 @@
             <div class="col-md-4">
                <img src="<?php echo 'assets/images/dota.png' ?>" alt="" style="max-width:200px;">
                <div class="text-center">
-               <a href="<?php echo "resgister-method.php"; ?>" class="btn-green">กติกา</a>
+               <a href="<?php echo "register-method.php"; ?>" class="btn-green">กติกา</a>
                   <a href="<?php echo "dota2.php"; ?>" class="btn-green">สมัครคลิก</a>
                </div>
             </div>
             <div class="col-md-4">
                <img src="<?php echo 'assets/images/pubg.png' ?>" alt="" style="max-width:200px;">
                <div class="text-center">
-                  <a href="<?php echo "resgister-method.php"; ?>" class="btn-green">กติกา</a>
+                  <a href="<?php echo "register-method.php"; ?>" class="btn-green">กติกา</a>
                   <a href="<?php echo "pubg.php"; ?>" class="btn-green">สมัครคลิก</a>
                </div>
             </div>
