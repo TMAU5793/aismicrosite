@@ -32,15 +32,15 @@
             <div class="col-md-4">
                <img src="<?php echo 'assets/images/dota.png' ?>" alt="" style="max-width:200px;">
                <div class="text-center">
-               <a href="<?php echo "resgister-method.php"; ?>" class="btn-green">กติกา</a>
-                  <a href="<?php echo "dota2.php"; ?>" class="btn-green">สมัครคลิก</a>
+                  <a href="#" class="btn-green">กติกา</a>
+                  <a href="#" class="btn-green">สมัครคลิก</a>
                </div>
             </div>
             <div class="col-md-4">
                <img src="<?php echo 'assets/images/pubg.png' ?>" alt="" style="max-width:200px;">
                <div class="text-center">
-                  <a href="<?php echo "resgister-method.php"; ?>" class="btn-green">กติกา</a>
-                  <a href="<?php echo "pubg.php"; ?>" class="btn-green">สมัครคลิก</a>
+                  <a href="#" class="btn-green">กติกา</a>
+                  <a href="#" class="btn-green">สมัครคลิก</a>
                </div>
             </div>
          </div>
