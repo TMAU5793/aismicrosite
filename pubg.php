@@ -1,25 +1,25 @@
 <?php include('header.php'); ?>
 <div class="banner">
-   <img src="<?php echo 'assets/images/banner2.jpg' ?>" alt="">
+   <img src="assets/images/banner2.jpg" alt="">
 </div>
-<div class="bg-microsite-dota pt-4">
+<div class="bg-microsite-pubg pt-4">
    <div class="container">
       <div class="text-center">
          <h1 class="shadow-white mb-4">สมัครแข่งขัน</h1>
          <div class="row h-205px box-2col">
             <div class="col-md-6">
                <div class="gradient-gray">
-                  <img src="<?php echo 'assets/images/dota.png' ?>" alt="" style="max-width:200px;">
+                  <img src="assets/images/dota.png" class="m-max-w150" style="max-width:200px;">
                   <div class="text-center">
-                     <a href="<?php echo "dota2.php"; ?>" class="btn-green">สมัครคลิก</a>
+                     <a href="https://aisesportsplatform.ais.co.th/tournament/detail/51" target="_blank" class="btn-green">สมัครคลิก</a>
                   </div>
                </div>
             </div>
             <div class="col-md-6">
                <div class="gradient-gray">
-                  <img src="<?php echo 'assets/images/pubg.png' ?>" alt="" style="max-width:200px;">
+                  <img src="assets/images/pubg.png" class="m-max-w150" style="max-width:200px;">
                   <div class="text-center">
-                     <a href="<?php echo "pubg.php"; ?>" class="btn-green">สมัครคลิก</a>
+                     <a href="https://aisesportsplatform.ais.co.th/tournament/detail/52" target="_blank" class="btn-green">สมัครคลิก</a>
                   </div>
                </div>
             </div>
@@ -30,7 +30,7 @@
          <h5 class="shadow-white text-center">รายละเอียดกติกา และ เงื่อนไขการแข่งกีฬาอีสปอร์ต</h5>
          <div class="gradient-gray mt-3">
             <div class="text-center">
-               <img src="<?php echo 'assets/images/pubg.png'; ?>" alt="" style="max-width:250px;">
+               <img src="assets/images/pubg.png" class="m-max-w150" style="max-width:250px;">
             </div>
             <div class="list-item-ais mt-5">
                <span>ระยะเวลา</span>
@@ -38,13 +38,13 @@
                   <li>เปิดรับสมัคร 31 มกราคม – 31 มีนาคม 63</li>
                   <li>จำกัดจำนวนทีม 1024 ทีม</li>
                   <li>แข่งขันรอบคัดเลือกในช่วงเดือน เมษายน-พฤษภาคม 63</li>
-                  <li>การแข่งขันรอบชิงชนะเลิศ ในช่วงเดือนพฤษภาคม 63</li>
+                  <li>การแข่งขันรอบชิงชนะเลิศ ในช่วงเดือนมิถุนายน 63</li>
                </ul>
             </div>
             <div class="award-ais mt-5">
                <div class="d-flex">
                   <h3 class="mr-3 shadow-white">รางวัลเงินสด ผ่าน</h3>
-                  <img src="<?php echo 'assets/images/line-rabbit.png'; ?>" alt="" style="max-width:200px;">
+                  <img src="assets/images/line-rabbit.png" alt="" style="max-width:200px;">
                </div>
                <div class="award-list mt-3">
                   <ul class="list-unstyled">
@@ -94,7 +94,7 @@
                   <li>ผู้สมัครต้องเป็นพนักงานของบริษัทที่เป็นพันธมิตรกับ AIS เท่านั้น</li>
                   <li>หากทีมงานตรวจสอบพบทีม หรือสมาชิกผู้เข้าแข่งขัน ไม่ตรงตามเงื่อนไขที่ระบุไว้ ทีมงานขอตัดสิทธิ์ไม่ให้เข้าร่วมการแข่งขัน</li>
                   <li>การตั้งชื่อทีม หรือการใช้รูปภาพภายในเกมต้องเป็นภาพที่เหมาะสม เช่น ไม่มีคำหยาบคาย ส่อเสียด รูปภาพที่ใช้ต้องไม่ติดลิขสิทธิ์</li>
-                  <li>การแข่งขันรายการ AIS eSports Thailand Corporate League 2020 Season 1 เปิดรับสมัครให้กับผู้เล่นทุกคน ทุกทีม และ ทุกระดับ อย่างเท่าเทียม โดยไม่เสียค่าใช้จ่ายในการสมัครใดๆทั้งสิ้น หากพบเห็นผู้แอบอ้างเรียกค่าใช้จ่ายในการรับสมัคร  สามารถแจ้งตรงกับทีมผู้ดูแลการจัดการแข่งขันในแท็บ ถาม-ตอบตรง</li>
+                  <li>การแข่งขันรายการ AIS eSports Thailand Corporate League 2020 Season 1 เปิดรับสมัครให้กับผู้เล่นทุกคน ทุกทีม และ ทุกระดับ อย่างเท่าเทียม โดยไม่เสียค่าใช้จ่ายในการสมัครใดๆทั้งสิ้น หากพบเห็นผู้แอบอ้างเรียกค่าใช้จ่ายในการรับสมัคร  สามารถแจ้งตรงกับทีมผู้ดูแลการจัดการแข่งขัน</li>
                </ul>
             </div>
             <div class="desc-footer-line"></div>

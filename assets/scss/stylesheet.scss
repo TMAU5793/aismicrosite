@@ -25,6 +25,20 @@ a:hover{
    background-position: center bottom;
    background-repeat: no-repeat;
 }
+.bg-microsite-pubg{
+   background: #080808;
+   background-image: url('../images/pubg-bg.jpg');
+   background-size: 100%;
+   background-position: center bottom;
+   background-repeat: no-repeat;
+}
+.bg-microsite-register{
+   background: #080808;
+   background-image: url('../images/register-bg.jpg');
+   background-size: 100%;
+   background-position: center bottom;
+   background-repeat: no-repeat;
+}
 .color-green{
    color: #c6ff00;
 }
@@ -94,6 +108,7 @@ a:hover{
 }
 footer{
    background-color: #242424;
+   position: relative;
 }
 .news-activity{
    .gradient-gray{
@@ -167,10 +182,181 @@ footer{
       width: 1.2em;
       margin-left: -1em;
    }
+   a{
+      color: #ffffff;
+   }
+   a:hover{
+      color: #c6ff00;
+   }
 }
 .desc-footer-line{
    height:2px;
    width:50%;
    background:#fff;
    margin:5rem auto 3rem;
+}
+.home-back{
+   background: #c6ff00;
+   border: none;
+   border-radius: 6px;
+   color: #000000;
+   padding: 10px 20px;
+   position: absolute;
+   top:50%;
+   right: 5%;
+   transform: translateY(-50%);
+   transition: all .25s;
+   height: 43px;
+}
+.home-back:hover{
+   -webkit-box-shadow: 0px 0px 3px 3px rgba(179,210,54,1);
+   -moz-box-shadow: 0px 0px 3px 3px rgba(179,210,54,1);
+   box-shadow: 0px 0px 3px 3px rgba(179,210,54,1);
+   border-radius: 50px;
+   transition: all .25s;
+   border: 2px solid #ffffff;
+   color: #000000;
+}
+.hover-white{
+   color: #ffffff;
+   :hover{
+      color: #c6ff00 !important;
+   }
+}
+.register-method-list{
+   .method-1{
+      position: relative;
+      .title-method{
+         position: absolute;
+         a:hover{
+            color: #c6ff00 !important;
+         }
+      }
+   }
+   .method-2{
+      position: relative;
+      h2{
+         position: absolute;
+         top: 5rem;
+      }
+   }
+}
+.m30-0{
+   margin: 30px 0 !important;
+}
+
+@media only screen and (max-width: 1199px) {
+   .bg-microsite{
+      background-size: cover;
+   }
+}
+@media only screen and (max-width: 991px) {
+   .register-method-list{
+      .method-1 .title-method{
+         position: static;
+      }
+      .method-2 h2{
+         top: 2rem;
+      }      
+   }
+   .h-205px{
+      height: auto;
+   }
+   .news-activity{
+      .center-middle{
+         position: static;
+         transform: unset;
+      }
+   }
+}
+@media only screen and (max-width: 768px) {
+   .bg-microsite-register{
+      background-size: cover;
+   }
+}
+@media only screen and (max-width: 480px) {
+   h1{
+      font-size: 2rem;
+   }
+   h2{
+      font-size: 1.5rem;
+   }
+   h3{
+      font-size: 1.25rem;
+   }
+   h5{
+      font-size: 1rem;
+   }
+   .register-method-list{
+      .method-2 h2{
+         position: static;
+      }
+   }
+   .h-205px{
+      height: auto;
+   }
+   .box-2col{
+      .col-md-6{
+         .gradient-gray{
+            height: 160px;
+            margin: 15px 45px;
+            border: 2px solid #c6ff00;
+            padding: 10px;
+         }
+      }
+   }
+   .font72px{
+      font-size: 50px;
+   }
+
+   .box-boder-green{
+      border: none;
+      .col-md-4{
+         margin: 15px 60px;
+         height: 160px;
+         padding-top: 0;
+         border: 2px solid #b3d236 !important;
+      }
+     .col-md-4:nth-child(2){
+         border: none;
+     }
+   }
+   .m-bottom-0{
+      margin-bottom: 0 !important;
+   }
+   .news-activity{
+      .gradient-gray{
+         margin: 15px 0;
+      }
+   }
+   .award-ais{
+      .d-flex{
+         display: block !important;
+         text-align: center;
+         h3{
+            text-align: left;
+         }
+      }
+   }
+   footer{
+      .p-5{
+         padding: 2rem !important;
+         text-align: left !important;
+      }
+      img{
+         max-width: 80px !important;
+      }
+   }
+   .home-back{
+      height: auto;
+      padding: 5px 10px;
+   }
+   .m-max-w150{
+      max-width: 150px !important;
+      padding: 15px;
+   }
+   .btn-green{
+      width: 100px;
+      padding:0;
+   }
 }
